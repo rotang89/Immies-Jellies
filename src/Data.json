@@ -1,0 +1,31 @@
+{
+  "main": {
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/sn0rlax",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/rotang89/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jonathan-tang-/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/rotang89",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"email",
+        "url":"mailto:email.john.e@gmail.com?subject=From%20Johnny's%20portfolio%20page",
+        "className":"fa fa-envelope"
+      }
+    ]
+  }
+}
