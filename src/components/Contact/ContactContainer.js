@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   ContactWrapper,
   Title,
@@ -12,16 +12,6 @@ import {
 } from './ContactContainerElements.js'
 
 const ContactContainer = () => {
-
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('')
-
-  const handleSubmit = () => {
-    console.log(`Name: ${name}`)
-    console.log(`Email: ${email}`)
-    console.log(`Message: ${message}`)
-  }
 
   return (
     <ContactWrapper>

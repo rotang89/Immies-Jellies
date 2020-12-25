@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 import Home_Carousel from '../components/Home_Carousel/home_carousel.js'
 import styled from 'styled-components';
