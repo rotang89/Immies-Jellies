@@ -1,7 +1,12 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from 'react';
-import { CarouselContainer } from './homeCarouselElements.js';
+import {
+  CarouselContainer,
+  CarouselText,
+  CarouselDiv,
+  CarouselImg
+} from './homeCarouselElements.js';
 
 const responsive = {
   desktop: {
@@ -30,18 +35,19 @@ const responsive = {
 const Home_Carousel = () => {
   return (
     <CarouselContainer>
-      <div
-      style={{
-        margin: 'auto',
-        width: '900px',
-        paddingBottom: '30px',
-        position: 'relative'
-      }}
-      >
-
+      <CarouselText>
+        100% NATURAL
+        <br></br>
+        HOMEMADE
+        <br></br>
+        COCONUT JELLY DESSERTS
+        <br></br>
+        MADE TO ORDER
+      </CarouselText>
+      <CarouselDiv>
         <Carousel
           additionalTransfrom={0}
-          arrows
+          arrows={false}
           autoPlay
           autoPlaySpeed={5000}
           centerMode={false}
@@ -57,63 +63,37 @@ const Home_Carousel = () => {
           renderButtonGroupOutside={false}
           renderDotsOutside
           responsive={responsive}
-          showDots
+          showDots={false}
           sliderClass=""
           slidesToSlide={1}
           swipeable
         >
-          <img
-            src="Images/carousel/dessert.jpg"
+          <CarouselImg
+            src="Images/carousel/image1.jpg"
             alt='dessert'
-            style={{
-              display: 'block',
-              height: '100%',
-              margin: 'auto',
-              width: '100%'
-            }}
           />
-          <img
-            src="Images/carousel/dessert.jpg"
+          <CarouselImg
+            src="Images/carousel/image2.jpg"
             alt='dessert'
-            style={{
-              display: 'block',
-              height: '100%',
-              margin: 'auto',
-              width: '100%'
-            }}
             />
-          <img
-            src="Images/carousel/dessert.jpg"
+          <CarouselImg
+            src="Images/carousel/image3.jpg"
             alt='dessert'
-            style={{
-              display: 'block',
-              height: '100%',
-              margin: 'auto',
-              width: '100%'
-            }}
             />
-          <img
-            src="Images/carousel/dessert.jpg"
+          <CarouselImg
+            src="Images/carousel/image4.jpg"
             alt='dessert'
-            style={{
-              display: 'block',
-              height: '100%',
-              margin: 'auto',
-              width: '100%'
-            }}
           />
-          <img
-            src="Images/carousel/dessert.jpg"
+          <CarouselImg
+            src="Images/carousel/image5.jpg"
             alt='dessert'
-            style={{
-              display: 'block',
-              height: '100%',
-              margin: 'auto',
-              width: '100%'
-            }}
+            />
+          <CarouselImg
+            src="Images/carousel/image6.jpg"
+            alt='dessert'
             />
           </Carousel>
-        </div>
+        </CarouselDiv>
       </CarouselContainer>
   )
 }

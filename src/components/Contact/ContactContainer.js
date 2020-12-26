@@ -22,11 +22,7 @@ const ContactContainer = () => {
         </Message>
       </Title>
       <Image src='Images/Contact_Image.jpg' height='100%'/>
-      {/* <input onChange={(e) => setEmail(e.target.value)} placeholder="Email" type="email"></input>
-      <input onChange={(e) => setName(e.target.value)} placeholder="Name" type="text"></input>
-      <input onChange={(e) => setMessage(e.target.value)} placeholder="Message" type='text'></input>
-      <button onClick={handleSubmit}>Submit</button> */}
-      <ContactForm name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+      <ContactForm name="contact" action="POST" data-netlify-recaptcha="true" data-netlify="true">
         <ContactInput>
           <h3>Your Name</h3>
           <InfoForm type="text" name="name" placeholder='Name'/>

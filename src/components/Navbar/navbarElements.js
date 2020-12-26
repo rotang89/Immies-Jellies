@@ -34,3 +34,9 @@ export const NavMenu = styled.div`
     display: none;
   }
 `;
+
+export const Header = styled.div `
+  background-image: url('Images/coconut_background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+`

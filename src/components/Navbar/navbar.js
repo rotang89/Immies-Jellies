@@ -2,13 +2,16 @@ import React from 'react';
 import {
   Nav,
   NavLink,
-  NavMenu
+  NavMenu,
+  Header
 } from './navbarElements';
 
 const Navbar = () => {
   return (
     <div>
-      <img src="Images/Header_Logo.png" alt="Logo" width="300" height="300"></img>
+      <Header>
+        <img src="Images/Header_Logo.png" alt="Logo" width="300" height="300"></img>
+      </Header>
       <Nav>
         <NavMenu>
           <NavLink exact to='/' activeStyle>

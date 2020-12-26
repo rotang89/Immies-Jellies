@@ -12,7 +12,6 @@ const Home = () => {
     <div>
       <Intro>
         <h1 style={{fontFamily: 'Chalkduster'}}>Fresh Coconut Jelly Desserts</h1>
-        <h1 style={{fontFamily: 'Chalkduster'}}>Made to order cupcakes and cakes</h1>
         </Intro>
       < Home_Carousel />
     </div>
