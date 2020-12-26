@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const ContactWrapper = styled.div `
   margin: 20px auto;
-  height: 700px;
   width: 1000px;
   background-color: pink;
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
@@ -12,6 +11,7 @@ export const ContactWrapper = styled.div `
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 3fr;
+  column-gap: 20px;
 `
 
 export const Title = styled.div `
@@ -30,7 +30,7 @@ export const Image = styled.img `
 export const ContactForm = styled.form `
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 3fr .5fr;
+  grid-template-rows: 1fr 1fr 1fr 3fr .5fr;
 `
 
 export const ContactInput = styled.p `
@@ -42,8 +42,8 @@ export const InfoForm = styled.input `
   width: 100%;
   font-size: 16px;
   padding: 4px;
-  margin-bottom: 10px;
   text-align: left;
+  margin-bottom: 24px;
 `
 
 export const MessageForm = styled.textarea `
@@ -52,11 +52,11 @@ export const MessageForm = styled.textarea `
   text-align: left;
   font-size: 16px;
   padding: 4px;
+  margin-bottom: 24px;
 `
 
 export const ContactButton = styled.button `
   width: 100%;
-  margin-left: 10px;
   box-shadow:inset 0px 1px 0px 0px #d9fbbe;
 	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
 	background-color:#b8e356;
@@ -70,13 +70,16 @@ export const ContactButton = styled.button `
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #86ae47;
-  &.hover {
+  text-shadow:0px 1px 0px #86ae47;
+  margin-top: 10px;
+  &:hover {
     background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
 	  background-color:#a5cc52;
   };
-  &.active {
-    position:relative;
-	  top:1px;
-  }
+`
+
+export const Error = styled.div `
+  color: red;
+  position: absolute;
+  transform: translateY(-24px);
 `

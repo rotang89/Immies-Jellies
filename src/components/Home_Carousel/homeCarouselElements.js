@@ -18,16 +18,20 @@ export const CarouselText = styled.div `
 
 export const CarouselDiv = styled.div `
   margin: auto;
-  height: 900px;
+  height: 720px;
   width: 1200px;
   padding-bottom: 30px;
   position: relative;
+  overflow: hidden;
+  @media screen and (max-width: 750px) {
+    width: 100%
+  }
 `
 
 export const CarouselImg = styled.img `
   display: block;
-  height: 900px;
   margin: auto;
-  width: 1200px;
+  width: 100%;
+  height: 62vw;
   object-fit: cover;
 `

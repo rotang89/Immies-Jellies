@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Intro>
-        <h1 style={{fontFamily: 'Chalkduster'}}>Fresh Coconut Jelly Desserts</h1>
+        <h1 style={{fontFamily: 'Chalkduster'}}>Available in the San Francisco Bay Area</h1>
         </Intro>
       < Home_Carousel />
     </div>

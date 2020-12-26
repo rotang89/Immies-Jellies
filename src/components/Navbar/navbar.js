@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import {
   Nav,
   NavLink,
   NavMenu,
-  Header
+  Header,
+  Bars
 } from './navbarElements';
 
 const Navbar = () => {
@@ -13,12 +15,13 @@ const Navbar = () => {
         <img src="Images/Header_Logo.png" alt="Logo" width="300" height="300"></img>
       </Header>
       <Nav>
+        {/* <Bars /> */}
         <NavMenu>
           <NavLink exact to='/' activeStyle>
             Home
           </NavLink>
           <NavLink to='/about' activeStyle>
-            About
+            Our Story
           </NavLink>
           <NavLink to='/menu' activeStyle>
             Menu
