@@ -5,7 +5,9 @@ import {
   CarouselContainer,
   CarouselText,
   CarouselDiv,
-  CarouselImg
+  CarouselImg,
+  Text1,
+  Text2
 } from './homeCarouselElements.js';
 
 const responsive = {
@@ -36,13 +38,16 @@ const Home_Carousel = () => {
   return (
     <CarouselContainer>
       <CarouselText>
-        100% NATURAL
-        <br></br>
-        HOMEMADE
-        <br></br>
-        COCONUT JELLY DESSERTS
-        <br></br>
-        MADE TO ORDER
+        <Text1>
+          100% NATURAL
+        </Text1>
+        <Text2>
+          HOMEMADE
+          <br></br>
+          COCONUT JELLY DESSERTS
+          <br></br>
+          MADE TO ORDER
+        </Text2>
       </CarouselText>
       <CarouselDiv>
         <Carousel

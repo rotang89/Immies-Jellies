@@ -5,10 +5,6 @@ export const FooterContainer = styled.div `
   padding: 30px
 `
 
-export const FlagBorder = styled.img `
-  margin: 50px 0px;
-`
-
 export const Icon = styled.a `
   margin: 20px;
   display: inline-block;

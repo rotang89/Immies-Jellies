@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   FooterContainer,
-  FlagBorder,
   Icon
 } from './footerElements.js'
 
@@ -9,8 +8,6 @@ const Footer = () => {
 
   return (
     <div>
-      <FlagBorder
-      der src='Images/decorative_border.png' width='100%' height='50px'></FlagBorder>
       <FooterContainer>
         <h2>Follow us on Social Media</h2>
           <Icon href='http://www.facebook.com' target='_blank'>
