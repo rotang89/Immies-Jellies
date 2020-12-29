@@ -7,7 +7,9 @@ import {
   CarouselDiv,
   CarouselImg,
   Text1,
-  Text2
+  Text2,
+  Text3,
+  Text4
 } from './homeCarouselElements.js';
 
 const responsive = {
@@ -39,15 +41,19 @@ const Home_Carousel = () => {
     <CarouselContainer>
       <CarouselText>
         <Text1>
-          100% NATURAL
+          100% <span style={{fontFamily:'Apple Chancery, cursive'}}>NATURAL</span>
+          <br></br>
+          COCONUT JELLY DESSERTS
         </Text1>
         <Text2>
           HOMEMADE
-          <br></br>
-          COCONUT JELLY DESSERTS
-          <br></br>
-          MADE TO ORDER
         </Text2>
+        <Text3>
+          MADE TO ORDER
+        </Text3>
+        <Text4 to='/menu'>
+          Check out our menu 🛒
+        </Text4>
       </CarouselText>
       <CarouselDiv>
         <Carousel
