@@ -6,6 +6,7 @@ import Home from './pages/home.js';
 import About from './pages/about.js';
 import Contact from './pages/contact.js';
 import Menu from './pages/menu.js';
+import Gallery from './pages/gallery.js'
 import Footer from './components/Footer/footer.js'
 import {main} from './Data.json'
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
           <Route path='/menu' component={Menu} />
+          <Route path='/gallery' component={Gallery} />
           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>

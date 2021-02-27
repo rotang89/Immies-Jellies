@@ -45,7 +45,6 @@ export const CarouselImg = styled.img `
   display: block;
   margin: auto;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 `
 

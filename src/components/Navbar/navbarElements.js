@@ -36,9 +36,9 @@ export const NavLink = styled(Link)`
 
 export const NavMenu = styled.div`
   align-items: center;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+  /* @media screen and (max-width: 768px) {
+    display: block;
+  } */
 `;
 
 export const Header = styled.div `

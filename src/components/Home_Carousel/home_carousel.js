@@ -60,7 +60,7 @@ const Home_Carousel = () => {
           additionalTransfrom={0}
           arrows={false}
           autoPlay
-          autoPlaySpeed={5000}
+          autoPlaySpeed={1000}
           centerMode={false}
           className=""
           containerClass="container"

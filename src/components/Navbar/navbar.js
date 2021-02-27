@@ -26,6 +26,9 @@ const Navbar = () => {
           <NavLink to='/menu' activeStyle>
             Menu
           </NavLink>
+          <NavLink to='/gallery' activeStyle>
+            Gallery
+          </NavLink>
           <NavLink to='/contact' activeStyle>
             Contact Us
           </NavLink>
